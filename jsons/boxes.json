@@ -1,30 +1,51 @@
-[
+var BOXES = [
 {
-  "id" : 1,
-  "subject" : "English"
+  "name"            : "English",
+  "shorthand"       : "eng",
+  "possibleLevels" : ["Higher", "Ordinary"],
+  "level"           : "H",
+  "grade"           : "A1"
 },
 {
-  "id" : 2,
-  "subject" : "Irish"
+  "name"            : "Irish",
+  "shorthand"       : "irish",
+  "possibleLevels" : ["Higher", "Ordinary", "Foundation"],
+  "level"           : "H",
+  "grade"           : "A1"
 },
 {
-  "id" : 3,
-  "subject" : "Maths"
+  "name"            : "Mathematics",
+  "shorthand"       : "maths",
+  "possibleLevels" : ["Higher", "Ordinary", "Foundation"],
+  "level"           : "H",
+  "grade"           : "A1"
 },
 {
-  "id" : 4,
-  "subject" : ""
+  "name"            : "",
+  "shorthand"       : "",
+  "possibleLevels" : [],
+  "level"           : "",
+  "grade"           : ""
 },
 {
-  "id" : 5,
-  "subject" : ""
+  "name"            : "",
+  "shorthand"       : "",
+  "possibleLevels" : [],
+  "level"           : "",
+  "grade"           : ""
 },
 {
-  "id" : 6,
-  "subject" : ""
+  "name"            : "",
+  "shorthand"       : "",
+  "possibleLevels" : [],
+  "level"           : "",
+  "grade"           : ""
 },
 {
-  "id" : 7,
-  "subject" : ""
+  "name"            : "",
+  "shorthand"       : "",
+  "possibleLevels" : [],
+  "level"           : "",
+  "grade"           : ""
 }
-]
+];

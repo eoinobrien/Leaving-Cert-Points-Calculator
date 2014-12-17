@@ -1,426 +1,418 @@
 [
   {
-    "name" : "",
-    "shorthand" : "empty",
-    "possible-levels" : [],
-    "level" : "",
-    "grade" : "",
-    "default" : false
-  },
-  {
-    "name" : "Accounting",
+    "name"      : "Accounting",
     "shorthand" : "accounting",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Agricultural Economics",
+    "name"      : "Agricultural Economics",
     "shorthand" : "agri-economics",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Agricultural Science",
+    "name"      : "Agricultural Science",
     "shorthand" : "agri-sci",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Ancient Greek",
+    "name"      : "Ancient Greek",
     "shorthand" : "a-greek",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Applied Mathematics",
+    "name"      : "Applied Mathematics",
     "shorthand" : "applied-maths",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Arabic",
+    "name"      : "Arabic",
     "shorthand" : "arabic",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Art",
+    "name"      : "Art",
     "shorthand" : "art",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Biology",
+    "name"      : "Biology",
     "shorthand" : "biology",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Bulgarian",
+    "name"      : "Bulgarian",
     "shorthand" : "bulgarian",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Business",
+    "name"      : "Business",
     "shorthand" : "bus",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Chemistry",
+    "name"      : "Chemistry",
     "shorthand" : "chem",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Classical Studies",
+    "name"      : "Classical Studies",
     "shorthand" : "classical",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Construction Studies",
+    "name"      : "Construction Studies",
     "shorthand" : "construction",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Croatian",
+    "name"      : "Croatian",
     "shorthand" : "croatian",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Czech",
+    "name"      : "Czech",
     "shorthand" : "czech",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Danish",
+    "name"      : "Danish",
     "shorthand" : "danish",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Design and Communication Graphics",
+    "name"      : "Design and Communication Graphics",
     "shorthand" : "dcg",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Dutch",
+    "name"      : "Dutch",
     "shorthand" : "dutch",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Economics",
+    "name"      : "Economics",
     "shorthand" : "economics",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Engineering",
+    "name"      : "Engineering",
     "shorthand" : "engineering",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "English",
+    "name"      : "English",
     "shorthand" : "eng",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : true
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : true
   },
   {
-    "name" : "Estonian",
+    "name"      : "Estonian",
     "shorthand" : "estonian",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Finnish",
+    "name"      : "Finnish",
     "shorthand" : "finnish",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "French",
+    "name"      : "French",
     "shorthand" : "french",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Geography",
+    "name"      : "Geography",
     "shorthand" : "geo",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "German",
+    "name"      : "German",
     "shorthand" : "german",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Hebrew Studies",
+    "name"      : "Hebrew Studies",
     "shorthand" : "hebrew",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "History",
+    "name"      : "History",
     "shorthand" : "history-1",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "History",
+    "name"      : "History",
     "shorthand" : "history-2",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Home Economics, Scientific and Social",
+    "name"      : "Home Economics, Scientific and Social",
     "shorthand" : "home-ec",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Hungarian",
+    "name"      : "Hungarian",
     "shorthand" : "hungarian",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Irish",
+    "name"      : "Irish",
     "shorthand" : "irish",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : true
+    "possibleLevels" : ["Higher", "Ordinary", "Foundation"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : true
   },
   {
-    "name" : "Italian",
+    "name"      : "Italian",
     "shorthand" : "ita",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Japanese",
+    "name"      : "Japanese",
     "shorthand" : "japanese",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Latin",
+    "name"      : "Latin",
     "shorthand" : "latin",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Latvian",
+    "name"      : "Latvian",
     "shorthand" : "latvian",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Link Modules",
+    "name"      : "Link Modules",
     "shorthand" : "link",
-    "possible-levels" : ["Common"],
-    "level" : "C",
-    "grade" : "Distinction",
-    "default" : false
+    "possibleLevels" : ["Common"],
+    "level"     : "C",
+    "grade"     : "Distinction",
+    "default"   : false
   },
   {
-    "name" : "Lithuanian",
+    "name"      : "Lithuanian",
     "shorthand" : "lithuanian",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Mathematics",
+    "name"      : "Mathematics",
     "shorthand" : "maths",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : true
+    "possibleLevels" : ["Higher", "Ordinary", "Foundation"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : true
   },
   {
-    "name" : "Modern Greek",
+    "name"      : "Modern Greek",
     "shorthand" : "m-greek",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Music",
+    "name"      : "Music",
     "shorthand" : "music",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Physics",
+    "name"      : "Physics",
     "shorthand" : "physics",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Physics and Chemistry",
+    "name"      : "Physics and Chemistry",
     "shorthand" : "physics-chem",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Polish",
+    "name"      : "Polish",
     "shorthand" : "polish",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Portuguese",
+    "name"      : "Portuguese",
     "shorthand" : "portuguese",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Religious Education",
+    "name"      : "Religious Education",
     "shorthand" : "religion",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Romanian",
+    "name"      : "Romanian",
     "shorthand" : "romanian",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Russian",
+    "name"      : "Russian",
     "shorthand" : "russian",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Slovakian",
+    "name"      : "Slovakian",
     "shorthand" : "slovakian",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Spanish",
+    "name"      : "Spanish",
     "shorthand" : "spanish",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Swedish",
+    "name"      : "Swedish",
     "shorthand" : "swedish",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   },
   {
-    "name" : "Technology",
+    "name"      : "Technology",
     "shorthand" : "technology",
-    "possible-levels" : ["Higher", "Ordinary"],
-    "level" : "H",
-    "grade" : "A1",
-    "default" : false
+    "possibleLevels" : ["Higher", "Ordinary"],
+    "level"     : "H",
+    "grade"     : "A1",
+    "default"   : false
   }
 ]

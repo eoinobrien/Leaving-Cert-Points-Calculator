@@ -2,58 +2,58 @@
   {
     "name"   : "Higher",
     "inital" : "H",
-    "weight" : {
-      "A1" : 100,
-      "A2" : 90,
-      "B1" : 85,
-      "B2" : 80,
-      "B3" : 75,
-      "C1" : 70,
-      "C2" : 65,
-      "C3" : 60,
-      "D1" : 55,
-      "D2" : 50,
-      "D3" : 45,
-      "F"  : 0
-    }
+    "weight" : [
+      { "name"  : "A1", "value" : 100},
+      { "name"  : "A2", "value" : 90 },
+      { "name"  : "B1", "value" : 85 },
+      { "name"  : "B2", "value" : 80 },
+      { "name"  : "B3", "value" : 75 },
+      { "name"  : "C1", "value" : 70 },
+      { "name"  : "C2", "value" : 65 },
+      { "name"  : "C3", "value" : 60 },
+      { "name"  : "D1", "value" : 55 },
+      { "name"  : "D2", "value" : 50 },
+      { "name"  : "D3", "value" : 45 },
+      { "name"  : "F",  "value" : 0  }
+    ]
   },
   {
     "name"   : "Ordinary",
     "inital" : "O",
-    "weight" : {
-      "A1" : 60,
-      "A2" : 50,
-      "B1" : 45,
-      "B2" : 40,
-      "B3" : 35,
-      "C1" : 30,
-      "C2" : 25,
-      "C3" : 20,
-      "D1" : 15,
-      "D2" : 10,
-      "D3" : 5,
-      "F"  : 0
-    }
+    "weight" : [
+      { "name"  : "A1", "value" : 60 },
+      { "name"  : "A2", "value" : 50 },
+      { "name"  : "B1", "value" : 45 },
+      { "name"  : "B2", "value" : 40 },
+      { "name"  : "B3", "value" : 35 },
+      { "name"  : "C1", "value" : 30 },
+      { "name"  : "C2", "value" : 25 },
+      { "name"  : "C3", "value" : 20 },
+      { "name"  : "D1", "value" : 15 },
+      { "name"  : "D2", "value" : 10 },
+      { "name"  : "D3", "value" : 5  },
+      { "name"  : "F",  "value" : 0  }
+    ]
   },
   {
     "name"   : "Foundation",
     "inital" : "F",
-    "weight" : {
-      "A1" : 20,
-      "A2" : 15,
-      "B1" : 10,
-      "B2" : 5,
-      "F"  : 0
-    }
+    "weight" : [
+      { "name"  : "A1", "value" : 20 },
+      { "name"  : "A2", "value" : 15 },
+      { "name"  : "B1", "value" : 10 },
+      { "name"  : "B2", "value" : 5  },
+      { "name"  : "F",  "value" : 0  }
+    ]
   },
   {
     "name"   : "Common",
     "inital" : "C",
-    "weight" : {
-      "Distinction" : 70,
-      "Merit"       : 50,
-      "Pass"        : 30,
-      "Fail"        : 0
-    }
+    "weight" : [
+      { "name"  : "Distinction", "value" : 70 },
+      { "name"  : "Merit",       "value" : 50 },
+      { "name"  : "Pass",        "value" : 30 },
+      { "name"  : "Fail",        "value" : 0  }
+    ]
   }
 ]

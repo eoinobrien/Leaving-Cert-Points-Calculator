@@ -1,67 +1,54 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head ng-app="lc-points" lang="en">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Leaving Certificate Points Calculator</title>
-    <meta name="description" content="An easy to use Leaving Certificate points calculator, for students, teachers and parents. Including, all of the subjects.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html ng-app="lcpoints" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Definitive list of everything you need to take to College, all in one easy-to-use place.">
+  <title>Things To Take To College</title>
 
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- Bootstrap -->
+  <link href="css/app.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/app.css">
-    <script src="js/0-vendor/modernizr-2.6.2.min.js"></script>
 </head>
-<body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-            <![endif]-->
+<body ng-controller="PointsController">
+    <!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
 
-            <!-- Add your site or application content here -->
-            <header>
-                <h1>Leaving Certificate Points Calculator</h1>
-            </header>
-            <section>
-                <section>
-                    <label for="subjects">Subject</label>
-                    <select id="subjects" name="subjects">
-                        <option value="eng">English</option>
-                        <option value="irish">Irish</option>
-                        <option value="maths">Maths</option>
-                        <option value="dcg">Design &amp; Communication Graphics</option>
-                    </select>
-                    <label for="level">Level</label>
-                    <input type="radio" id="level" name="level" value="H">Higher (90-100)</input>
-                    <input type="radio" id="level" name="level" value="O">Ordinary</input>
-                    <input type="radio" id="level" name="level" value="F">Foundation</input>
-                    <label for="grade">Grade</label>
-                    <select id="grade" name="grade">
-                        <option value="a1">A1</option>
-                        <option value="a2">A2</option>
-                        <option value="b1">B1</option>
-                        <option value="b2">B2</option>
-                    </select>
-                </section>
-            </section>
-            <footer>
-                <h1>Your Total Points</h1>
-            </footer>
+    <header>
+        <h1>Leaving Certificate Points Calculator</h1>
+    </header>
 
-            <script src="js/0-vendor/angular.min.js"></script>
-            <script src="js/plugins.js"></script>
-            <script src="js/main.js"></script>
+    <section ng-repeat="box in boxes"   >
+        <label for="subjects">Subject</label>
+        <select id="subjects" name="subjects">
+            <option value="{{box.shorthand}}" selected>{{box.name}}</option>
+            <option value="{{subject.shorthand}}" ng-repeat="subject in subjects">{{subject.name}}</option>
+        </select>
+        <label for="level">Level</label>
+        <label ng-repeat="level in box.possibleLevels">
+            <input type="radio" id="level" name="level">{{level}}
+        </label>
+        <span ng-repeat="grade in grades">
+        <select id="grade" name="grade" ng-if="box.level === grade.inital" >
+                <option value="" ng-repeat="mark in grade.weight">{{mark.name}}</option>
+            </select>
+        </span>
+        <hr>
+    </section>
+    <section ng-click="addBox()">
+        <span>Add another subject</span>
+    </section>
+</section>
 
-            <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-            <script>
-                (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-                    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-                e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-                e.src='//www.google-analytics.com/analytics.js';
-                r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-                ga('create','UA-XXXXX-X');ga('send','pageview');
-            </script>
-        </body>
-        </html>
+<footer>
+    <h1>Your Total Points:</h1>
+</footer>
+
+
+<script src="js/0-vendor/angular.min.js"></script>
+<!--<script src="assets/javascripts/angular.js"></script>-->
+<script src="js/main.js"></script>
+
+</script>
+</body>
+</html>
