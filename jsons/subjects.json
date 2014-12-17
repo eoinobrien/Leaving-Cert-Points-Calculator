@@ -1,0 +1,41 @@
+[
+  {
+    "name" : "English",
+    "shorthand" : "eng",
+    "possible-levels" : [ "Higher", "Ordinary"],
+    "level" : "H",
+    "grade" : "A1",
+    "default" : true
+  },
+  {
+    "name" : "Irish",
+    "shorthand" : "irish",
+    "possible-levels" : [ "Higher", "Ordinary", "Foundation"],
+    "level" : "H",
+    "grade" : "A1",
+    "default" : true
+  },
+  {
+    "name" : "Maths",
+    "shorthand" : "maths",
+    "possible-levels" : [ "Higher", "Ordinary", "Foundation"],
+    "level" : "H",
+    "grade" : "A1",
+    "default" : true
+  },
+  {
+    "name" : "Geography",
+    "shorthand" : "geo",
+    "possible-levels" : [ "Higher", "Ordinary"],
+    "level" : "H",
+    "grade" : "A1",
+    "default" : false
+  },
+  {
+    "name" : "",
+    "shorthand" : "empty",
+    "possible-levels" : [],
+    "level" : "",
+    "grade" : ""
+  }
+]
