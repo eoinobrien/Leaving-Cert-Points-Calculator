@@ -3,11 +3,11 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
+<head ng-app="lc-points" lang="en">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
+    <title>Leaving Certificate Points Calculator</title>
+    <meta name="description" content="An easy to use Leaving Certificate points calculator, for students, teachers and parents. Including, all of the subjects.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -21,12 +21,36 @@
             <![endif]-->
 
             <!-- Add your site or application content here -->
-            <div>
-                <h1>Default Website Structure</h1>
-                <p>Hello World</p>
-            </div>
+            <header>
+                <h1>Leaving Certificate Points Calculator</h1>
+            </header>
+            <section>
+                <section>
+                    <label for="subjects">Subject</label>
+                    <select id="subjects" name="subjects">
+                        <option value="eng">English</option>
+                        <option value="irish">Irish</option>
+                        <option value="maths">Maths</option>
+                        <option value="dcg">Design &amp; Communication Graphics</option>
+                    </select>
+                    <label for="level">Level</label>
+                    <input type="radio" id="level" name="level" value="H">Higher (90-100)</input>
+                    <input type="radio" id="level" name="level" value="O">Ordinary</input>
+                    <input type="radio" id="level" name="level" value="F">Foundation</input>
+                    <label for="grade">Grade</label>
+                    <select id="grade" name="grade">
+                        <option value="a1">A1</option>
+                        <option value="a2">A2</option>
+                        <option value="b1">B1</option>
+                        <option value="b2">B2</option>
+                    </select>
+                </section>
+            </section>
+            <footer>
+                <h1>Your Total Points</h1>
+            </footer>
 
-
+            <script src="js/0-vendor/angular.min.js"></script>
             <script src="js/plugins.js"></script>
             <script src="js/main.js"></script>
 
