@@ -3,21 +3,21 @@ var BOXES = [
   "name"            : "English",
   "shorthand"       : "eng",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"           : "H",
+  "level"           : "Higher",
   "grade"           : "A1"
 },
 {
   "name"            : "Irish",
   "shorthand"       : "irish",
   "possibleLevels" : ["Higher", "Ordinary", "Foundation"],
-  "level"           : "H",
-  "grade"           : "A1"
+  "level"           : "Higher",
+  "grade"           : "B1"
 },
 {
   "name"            : "Mathematics",
   "shorthand"       : "maths",
   "possibleLevels" : ["Higher", "Ordinary", "Foundation"],
-  "level"           : "H",
+  "level"           : "Higher",
   "grade"           : "A1"
 },
 {
@@ -54,7 +54,7 @@ var SUBJECTS = [
   "name"      : "Accounting",
   "shorthand" : "accounting",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -62,7 +62,7 @@ var SUBJECTS = [
   "name"      : "Agricultural Economics",
   "shorthand" : "agri-economics",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -70,7 +70,7 @@ var SUBJECTS = [
   "name"      : "Agricultural Science",
   "shorthand" : "agri-sci",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -78,7 +78,7 @@ var SUBJECTS = [
   "name"      : "Ancient Greek",
   "shorthand" : "a-greek",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -86,7 +86,7 @@ var SUBJECTS = [
   "name"      : "Applied Mathematics",
   "shorthand" : "applied-maths",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -94,7 +94,7 @@ var SUBJECTS = [
   "name"      : "Arabic",
   "shorthand" : "arabic",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -102,7 +102,7 @@ var SUBJECTS = [
   "name"      : "Art",
   "shorthand" : "art",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -110,7 +110,7 @@ var SUBJECTS = [
   "name"      : "Biology",
   "shorthand" : "biology",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -118,7 +118,7 @@ var SUBJECTS = [
   "name"      : "Bulgarian",
   "shorthand" : "bulgarian",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -126,7 +126,7 @@ var SUBJECTS = [
   "name"      : "Business",
   "shorthand" : "bus",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -134,7 +134,7 @@ var SUBJECTS = [
   "name"      : "Chemistry",
   "shorthand" : "chem",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -142,7 +142,7 @@ var SUBJECTS = [
   "name"      : "Classical Studies",
   "shorthand" : "classical",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -150,7 +150,7 @@ var SUBJECTS = [
   "name"      : "Construction Studies",
   "shorthand" : "construction",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -158,7 +158,7 @@ var SUBJECTS = [
   "name"      : "Croatian",
   "shorthand" : "croatian",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -166,7 +166,7 @@ var SUBJECTS = [
   "name"      : "Czech",
   "shorthand" : "czech",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -174,7 +174,7 @@ var SUBJECTS = [
   "name"      : "Danish",
   "shorthand" : "danish",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -182,7 +182,7 @@ var SUBJECTS = [
   "name"      : "Design and Communication Graphics",
   "shorthand" : "dcg",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -190,7 +190,7 @@ var SUBJECTS = [
   "name"      : "Dutch",
   "shorthand" : "dutch",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -198,7 +198,7 @@ var SUBJECTS = [
   "name"      : "Economics",
   "shorthand" : "economics",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -206,7 +206,7 @@ var SUBJECTS = [
   "name"      : "Engineering",
   "shorthand" : "engineering",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -214,7 +214,7 @@ var SUBJECTS = [
   "name"      : "English",
   "shorthand" : "eng",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : true
 },
@@ -222,7 +222,7 @@ var SUBJECTS = [
   "name"      : "Estonian",
   "shorthand" : "estonian",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -230,7 +230,7 @@ var SUBJECTS = [
   "name"      : "Finnish",
   "shorthand" : "finnish",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -238,7 +238,7 @@ var SUBJECTS = [
   "name"      : "French",
   "shorthand" : "french",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -246,7 +246,7 @@ var SUBJECTS = [
   "name"      : "Geography",
   "shorthand" : "geo",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -254,7 +254,7 @@ var SUBJECTS = [
   "name"      : "German",
   "shorthand" : "german",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -262,7 +262,7 @@ var SUBJECTS = [
   "name"      : "Hebrew Studies",
   "shorthand" : "hebrew",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -270,7 +270,7 @@ var SUBJECTS = [
   "name"      : "History",
   "shorthand" : "history-1",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -278,7 +278,7 @@ var SUBJECTS = [
   "name"      : "History",
   "shorthand" : "history-2",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -286,7 +286,7 @@ var SUBJECTS = [
   "name"      : "Home Economics, Scientific and Social",
   "shorthand" : "home-ec",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -294,7 +294,7 @@ var SUBJECTS = [
   "name"      : "Hungarian",
   "shorthand" : "hungarian",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -302,7 +302,7 @@ var SUBJECTS = [
   "name"      : "Irish",
   "shorthand" : "irish",
   "possibleLevels" : ["Higher", "Ordinary", "Foundation"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : true
 },
@@ -310,7 +310,7 @@ var SUBJECTS = [
   "name"      : "Italian",
   "shorthand" : "ita",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -318,7 +318,7 @@ var SUBJECTS = [
   "name"      : "Japanese",
   "shorthand" : "japanese",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -326,7 +326,7 @@ var SUBJECTS = [
   "name"      : "Latin",
   "shorthand" : "latin",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -334,7 +334,7 @@ var SUBJECTS = [
   "name"      : "Latvian",
   "shorthand" : "latvian",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -342,7 +342,7 @@ var SUBJECTS = [
   "name"      : "Link Modules",
   "shorthand" : "link",
   "possibleLevels" : ["Common"],
-  "level"     : "C",
+  "level"     : "Common",
   "grade"     : "Distinction",
   "default"   : false
 },
@@ -350,7 +350,7 @@ var SUBJECTS = [
   "name"      : "Lithuanian",
   "shorthand" : "lithuanian",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -358,7 +358,7 @@ var SUBJECTS = [
   "name"      : "Mathematics",
   "shorthand" : "maths",
   "possibleLevels" : ["Higher", "Ordinary", "Foundation"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : true
 },
@@ -366,7 +366,7 @@ var SUBJECTS = [
   "name"      : "Modern Greek",
   "shorthand" : "m-greek",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -374,7 +374,7 @@ var SUBJECTS = [
   "name"      : "Music",
   "shorthand" : "music",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -382,7 +382,7 @@ var SUBJECTS = [
   "name"      : "Physics",
   "shorthand" : "physics",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -390,7 +390,7 @@ var SUBJECTS = [
   "name"      : "Physics and Chemistry",
   "shorthand" : "physics-chem",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -398,7 +398,7 @@ var SUBJECTS = [
   "name"      : "Polish",
   "shorthand" : "polish",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -406,7 +406,7 @@ var SUBJECTS = [
   "name"      : "Portuguese",
   "shorthand" : "portuguese",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -414,7 +414,7 @@ var SUBJECTS = [
   "name"      : "Religious Education",
   "shorthand" : "religion",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -422,7 +422,7 @@ var SUBJECTS = [
   "name"      : "Romanian",
   "shorthand" : "romanian",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -430,7 +430,7 @@ var SUBJECTS = [
   "name"      : "Russian",
   "shorthand" : "russian",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -438,7 +438,7 @@ var SUBJECTS = [
   "name"      : "Slovakian",
   "shorthand" : "slovakian",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -446,7 +446,7 @@ var SUBJECTS = [
   "name"      : "Spanish",
   "shorthand" : "spanish",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -454,7 +454,7 @@ var SUBJECTS = [
   "name"      : "Swedish",
   "shorthand" : "swedish",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
   "default"   : false
 },
@@ -462,15 +462,22 @@ var SUBJECTS = [
   "name"      : "Technology",
   "shorthand" : "technology",
   "possibleLevels" : ["Higher", "Ordinary"],
-  "level"     : "H",
+  "level"     : "Higher",
   "grade"     : "A1",
+  "default"   : false
+},
+{
+  "name"            : "",
+  "shorthand"       : "",
+  "possibleLevels" : [],
+  "level"           : "",
+  "grade"           : "",
   "default"   : false
 }
 ];
 var GRADES = [
 {
   "name"   : "Higher",
-  "inital" : "H",
   "weight" : [
   { "name"  : "A1", "value" : 100},
   { "name"  : "A2", "value" : 90 },
@@ -488,7 +495,6 @@ var GRADES = [
 },
 {
   "name"   : "Ordinary",
-  "inital" : "O",
   "weight" : [
   { "name"  : "A1", "value" : 60 },
   { "name"  : "A2", "value" : 50 },
@@ -506,7 +512,6 @@ var GRADES = [
 },
 {
   "name"   : "Foundation",
-  "inital" : "F",
   "weight" : [
   { "name"  : "A1", "value" : 20 },
   { "name"  : "A2", "value" : 15 },
@@ -517,7 +522,6 @@ var GRADES = [
 },
 {
   "name"   : "Common",
-  "inital" : "C",
   "weight" : [
   { "name"  : "Distinction", "value" : 70 },
   { "name"  : "Merit",       "value" : 50 },
@@ -535,7 +539,44 @@ function supports_html5_storage() {
     return false;
   }
 }
+function searchGetIndex(nameKey, myArray){
+  for (var i=0; i < myArray.length; i++) {
+    if (myArray[i].name === nameKey) {
+      return i;
+    }
+  }
+}
+function getMark(level, grade){ //check through grades and return appropriate mark
+  for (var i=0; i < GRADES.length; i++) {
+    if (GRADES[i].name === level) {
+      for (var j=0; j < GRADES[i].weight.length; j++) {
+        if (GRADES[i].weight[j].name === grade) {
+          return GRADES[i].weight[j].value;
+        }
+      }
+    }
+  }
+}
+addPoints = function (boxesList) {
+  var sum = 0;
+  var marks = [];
+  angular.forEach(boxesList, function(box) {
+    if(box.name != ""){
+      var thisMark = getMark(box.level, box.grade);
+      if( box.name === "Mathematics" && box.level === "Higher" ) thisMark += 25;
+      marks.push({
+        "name"  : box.name,
+        "marks" : thisMark
+      });
+    }
+  });
 
+  var sum = 0;
+  angular.forEach(marks, function(mark) {
+    sum += mark.marks;
+  });
+  return sum;
+};
 
 var lcpoints = angular.module('lcpoints', []);
 
@@ -560,17 +601,11 @@ lcpoints.controller('PointsController', ['$scope', '$filter', function($scope, $
     subjectsList = $filter('orderBy')(subjectsJSON,"name");
   //}
 
-  /*for (var i = 0; i < subjectsList.length; i++) {
-    for(var j = 0; j < boxesList.length; j++){
-      if(subjectsList[i].name === boxesList[j].name){
-        subjectsList.splice(i,1);
-      }
-    }
-  };*/
-
-  $scope.boxes = boxesList;
-  $scope.subjects = subjectsList;
-  $scope.grades = gradesList;
+  $scope.boxes     = boxesList;
+  $scope.subjects  = subjectsList;
+  $scope.grades    = gradesList;
+  $scope.points    = 0;
+  $scope.points    = addPoints(boxesList);
 
   $scope.addBox = function (){
     boxesList.push({
@@ -581,5 +616,57 @@ lcpoints.controller('PointsController', ['$scope', '$filter', function($scope, $
       "grade"           : ""
     });
     $scope.boxes = boxesList;
+  };
+  $scope.updateSubject = function(index){
+    var updated = boxesList[index];
+    var updateName = updated.name;
+    var subIndex = searchGetIndex(updateName, subjectsList);
+
+    updated.shorthand = subjectsList[subIndex].shorthand;
+    updated.possibleLevels = subjectsList[subIndex].possibleLevels;
+    updated.level = subjectsList[subIndex].level;
+    updated.grade = subjectsList[subIndex].grade;
+
+    boxesList[index] = updated;
+    $scope.boxes     = boxesList;
+    $scope.points    = addPoints(boxesList);
+    if(supports_html5_storage()){
+      localStorage.setItem("boxesList",JSON.stringify(boxesList));
+      localStorage.setItem("subjectsList",JSON.stringify(subjectsList));
+      console.log("Updated localStorage");
+    }
+  };
+  $scope.updateLevel = function(index){
+    var updated = boxesList[index];
+    var updateName = updated.name;
+    var subIndex = searchGetIndex(updateName, subjectsList);
+
+    subjectsList[subIndex].level = updated.level;
+    updated.grade = subjectsList[subIndex].grade;
+
+    boxesList[index] = updated;
+    $scope.boxes     = boxesList;
+    $scope.points    = addPoints(boxesList);
+    if(supports_html5_storage()){
+      localStorage.setItem("boxesList",JSON.stringify(boxesList));
+      localStorage.setItem("subjectsList",JSON.stringify(subjectsList));
+      console.log("Updated localStorage");
+    }
+  };
+  $scope.updateGrade = function(index){
+    var updated = boxesList[index];
+    var updateName = updated.name;
+    var subIndex = searchGetIndex(updateName, subjectsList);
+
+    subjectsList[subIndex].grade = updated.grade;
+
+    boxesList[index] = updated;
+    $scope.boxes     = boxesList;
+    $scope.points    = addPoints(boxesList);
+    if(supports_html5_storage()){
+      localStorage.setItem("boxesList",JSON.stringify(boxesList));
+      localStorage.setItem("subjectsList",JSON.stringify(subjectsList));
+      console.log("Updated localStorage");
+    }
   };
 }]);

@@ -1,7 +1,6 @@
 [
   {
     "name"   : "Higher",
-    "inital" : "H",
     "weight" : [
       { "name"  : "A1", "value" : 100},
       { "name"  : "A2", "value" : 90 },
@@ -19,7 +18,6 @@
   },
   {
     "name"   : "Ordinary",
-    "inital" : "O",
     "weight" : [
       { "name"  : "A1", "value" : 60 },
       { "name"  : "A2", "value" : 50 },
@@ -37,7 +35,6 @@
   },
   {
     "name"   : "Foundation",
-    "inital" : "F",
     "weight" : [
       { "name"  : "A1", "value" : 20 },
       { "name"  : "A2", "value" : 15 },
@@ -48,7 +45,6 @@
   },
   {
     "name"   : "Common",
-    "inital" : "C",
     "weight" : [
       { "name"  : "Distinction", "value" : 70 },
       { "name"  : "Merit",       "value" : 50 },

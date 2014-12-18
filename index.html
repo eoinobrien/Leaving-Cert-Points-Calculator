@@ -12,42 +12,40 @@
 
 </head>
 <body ng-controller="PointsController">
-    <!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
+  <!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
 
-    <header>
-        <h1>Leaving Certificate Points Calculator</h1>
-    </header>
+  <header>
+    <h1>Leaving Certificate Points Calculator</h1>
+  </header>
 
-    <section ng-repeat="box in boxes"   >
-        <label for="subjects">Subject</label>
-        <select id="subjects" name="subjects">
-            <option value="{{box.shorthand}}" selected>{{box.name}}</option>
-            <option value="{{subject.shorthand}}" ng-repeat="subject in subjects">{{subject.name}}</option>
-        </select>
-        <label for="level">Level</label>
-        <label ng-repeat="level in box.possibleLevels">
-            <input type="radio" id="level" name="level">{{level}}
-        </label>
-        <span ng-repeat="grade in grades">
-        <select id="grade" name="grade" ng-if="box.level === grade.inital" >
-                <option value="" ng-repeat="mark in grade.weight">{{mark.name}}</option>
-            </select>
-        </span>
-        <hr>
+  <section>
+    <section ng-repeat="(index, box) in boxes">
+      <label for="subjects">Subject</label>
+      <select id="subjects" name="subjects" ng-model="box.name" ng-change="updateSubject(index)">
+        <option ng-repeat="subject in subjects" ng-value="subject.name">{{subject.name}}</option>
+      </select>
+      <label for="level">Level</label>
+      <label ng-repeat="level in box.possibleLevels">
+        <input type="radio" id="level" name="level" ng-model="box.level" ng-value="level" ng-change="updateLevel(index)">{{level | limitTo:1}}
+      </label>
+      <select ng-repeat="grade in grades" ng-if="box.level === grade.name" ng-model="box.grade" ng-change="updateGrade(index)">
+        <option ng-value="mark.name" ng-repeat="mark in grade.weight">{{mark.name}}</option>
+      </select>
+      <hr>
     </section>
     <section ng-click="addBox()">
-        <span>Add another subject</span>
+      Add another subject +
     </section>
-</section>
+  </section>
 
-<footer>
-    <h1>Your Total Points:</h1>
-</footer>
+  <footer>
+    <h1>Your Total Points: {{points}}</h1>
+  </footer>
 
 
-<script src="js/0-vendor/angular.min.js"></script>
-<!--<script src="assets/javascripts/angular.js"></script>-->
-<script src="js/main.js"></script>
+  <script src="js/0-vendor/angular.min.js"></script>
+  <!--<script src="assets/javascripts/angular.js"></script>-->
+  <script src="js/main.js"></script>
 
 </script>
 </body>

@@ -3,7 +3,7 @@
     "name"      : "Accounting",
     "shorthand" : "accounting",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -11,7 +11,7 @@
     "name"      : "Agricultural Economics",
     "shorthand" : "agri-economics",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -19,7 +19,7 @@
     "name"      : "Agricultural Science",
     "shorthand" : "agri-sci",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -27,7 +27,7 @@
     "name"      : "Ancient Greek",
     "shorthand" : "a-greek",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -35,7 +35,7 @@
     "name"      : "Applied Mathematics",
     "shorthand" : "applied-maths",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -43,7 +43,7 @@
     "name"      : "Arabic",
     "shorthand" : "arabic",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -51,7 +51,7 @@
     "name"      : "Art",
     "shorthand" : "art",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -59,7 +59,7 @@
     "name"      : "Biology",
     "shorthand" : "biology",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -67,7 +67,7 @@
     "name"      : "Bulgarian",
     "shorthand" : "bulgarian",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -75,7 +75,7 @@
     "name"      : "Business",
     "shorthand" : "bus",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -83,7 +83,7 @@
     "name"      : "Chemistry",
     "shorthand" : "chem",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -91,7 +91,7 @@
     "name"      : "Classical Studies",
     "shorthand" : "classical",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -99,7 +99,7 @@
     "name"      : "Construction Studies",
     "shorthand" : "construction",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -107,7 +107,7 @@
     "name"      : "Croatian",
     "shorthand" : "croatian",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -115,7 +115,7 @@
     "name"      : "Czech",
     "shorthand" : "czech",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -123,7 +123,7 @@
     "name"      : "Danish",
     "shorthand" : "danish",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -131,7 +131,7 @@
     "name"      : "Design and Communication Graphics",
     "shorthand" : "dcg",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -139,7 +139,7 @@
     "name"      : "Dutch",
     "shorthand" : "dutch",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -147,7 +147,7 @@
     "name"      : "Economics",
     "shorthand" : "economics",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -155,7 +155,7 @@
     "name"      : "Engineering",
     "shorthand" : "engineering",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -163,7 +163,7 @@
     "name"      : "English",
     "shorthand" : "eng",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : true
   },
@@ -171,7 +171,7 @@
     "name"      : "Estonian",
     "shorthand" : "estonian",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -179,7 +179,7 @@
     "name"      : "Finnish",
     "shorthand" : "finnish",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -187,7 +187,7 @@
     "name"      : "French",
     "shorthand" : "french",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -195,7 +195,7 @@
     "name"      : "Geography",
     "shorthand" : "geo",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -203,7 +203,7 @@
     "name"      : "German",
     "shorthand" : "german",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -211,7 +211,7 @@
     "name"      : "Hebrew Studies",
     "shorthand" : "hebrew",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -219,7 +219,7 @@
     "name"      : "History",
     "shorthand" : "history-1",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -227,7 +227,7 @@
     "name"      : "History",
     "shorthand" : "history-2",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -235,7 +235,7 @@
     "name"      : "Home Economics, Scientific and Social",
     "shorthand" : "home-ec",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -243,7 +243,7 @@
     "name"      : "Hungarian",
     "shorthand" : "hungarian",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -251,7 +251,7 @@
     "name"      : "Irish",
     "shorthand" : "irish",
     "possibleLevels" : ["Higher", "Ordinary", "Foundation"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : true
   },
@@ -259,7 +259,7 @@
     "name"      : "Italian",
     "shorthand" : "ita",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -267,7 +267,7 @@
     "name"      : "Japanese",
     "shorthand" : "japanese",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -275,7 +275,7 @@
     "name"      : "Latin",
     "shorthand" : "latin",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -283,7 +283,7 @@
     "name"      : "Latvian",
     "shorthand" : "latvian",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -291,7 +291,7 @@
     "name"      : "Link Modules",
     "shorthand" : "link",
     "possibleLevels" : ["Common"],
-    "level"     : "C",
+    "level"     : "Common",
     "grade"     : "Distinction",
     "default"   : false
   },
@@ -299,7 +299,7 @@
     "name"      : "Lithuanian",
     "shorthand" : "lithuanian",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -307,7 +307,7 @@
     "name"      : "Mathematics",
     "shorthand" : "maths",
     "possibleLevels" : ["Higher", "Ordinary", "Foundation"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : true
   },
@@ -315,7 +315,7 @@
     "name"      : "Modern Greek",
     "shorthand" : "m-greek",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -323,7 +323,7 @@
     "name"      : "Music",
     "shorthand" : "music",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -331,7 +331,7 @@
     "name"      : "Physics",
     "shorthand" : "physics",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -339,7 +339,7 @@
     "name"      : "Physics and Chemistry",
     "shorthand" : "physics-chem",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -347,7 +347,7 @@
     "name"      : "Polish",
     "shorthand" : "polish",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -355,7 +355,7 @@
     "name"      : "Portuguese",
     "shorthand" : "portuguese",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -363,7 +363,7 @@
     "name"      : "Religious Education",
     "shorthand" : "religion",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -371,7 +371,7 @@
     "name"      : "Romanian",
     "shorthand" : "romanian",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -379,7 +379,7 @@
     "name"      : "Russian",
     "shorthand" : "russian",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -387,7 +387,7 @@
     "name"      : "Slovakian",
     "shorthand" : "slovakian",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -395,7 +395,7 @@
     "name"      : "Spanish",
     "shorthand" : "spanish",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -403,7 +403,7 @@
     "name"      : "Swedish",
     "shorthand" : "swedish",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
     "default"   : false
   },
@@ -411,8 +411,16 @@
     "name"      : "Technology",
     "shorthand" : "technology",
     "possibleLevels" : ["Higher", "Ordinary"],
-    "level"     : "H",
+    "level"     : "Higher",
     "grade"     : "A1",
+    "default"   : false
+  },
+  {
+    "name"            : "",
+    "shorthand"       : "",
+    "possibleLevels" : [],
+    "level"           : "",
+    "grade"           : "",
     "default"   : false
   }
 ]
