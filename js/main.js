@@ -557,24 +557,26 @@ function getMark(level, grade){ //check through grades and return appropriate ma
     }
   }
 }
-addPoints = function (boxesList) {
+function sortInt(a,b) {
+    return b - a;
+}
+addPoints = function(boxesList) {
   var sum = 0;
   var marks = [];
   angular.forEach(boxesList, function(box) {
     if(box.name != ""){
       var thisMark = getMark(box.level, box.grade);
       if( box.name === "Mathematics" && box.level === "Higher" ) thisMark += 25;
-      marks.push({
-        "name"  : box.name,
-        "marks" : thisMark
-      });
+      marks.push(thisMark);
     }
   });
 
+  marks.sort(sortInt);
+
   var sum = 0;
-  angular.forEach(marks, function(mark) {
-    sum += mark.marks;
-  });
+  for (var i = 0; i < marks.length && i < 6; i++) {
+    sum += marks[i];
+  };
   return sum;
 };
 
