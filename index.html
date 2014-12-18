@@ -29,8 +29,8 @@
       <fieldset class="radiogroup button-group" id="level" role="radiogroup" aria-labelledby="level_label">
         <legend id="level_label">Level</legend>
         <span ng-repeat="level in box.possibleLevels" title="{{level}}">
-          <input id="level_{{$index}}" type="radio" name="level_{{index}}" ng-model="box.level" ng-value="level" ng-change="updateLevel(index)" tabindex="0">
-          <label for="level_{{$index}}">{{level | limitTo:1}}</label>
+          <input id="level_{{index}}_{{$index}}" type="radio" name="level_{{index}}" ng-model="box.level" ng-value="level" ng-change="updateLevel(index)" tabindex="0">
+          <label for="level_{{index}}_{{$index}}">{{level | limitTo:1}}</label>
         </span>
 
         <span ng-if="box .possibleLevels.length === 0">
