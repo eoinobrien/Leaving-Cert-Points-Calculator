@@ -1,0 +1,60 @@
+.button-group {
+  $button-group-background: $base-background-color;
+  $button-group-color: lighten($base-font-color, 30);
+  $button-group-border: 1px solid silver;
+  $button-group-inner-border: 1px solid lighten(silver, 18);
+  $button-group-background-checked: $base-accent-color;
+  $button-group-background-disabled: darken($button-group-background, 15);
+  $button-group-color-checked: white;
+  $button-group-border-checked: darken($button-group-background-checked, 15);
+
+  input {
+    position: absolute;
+    z-index: -1;
+  }
+
+  span {
+    margin-bottom: 0;
+
+    @include media($large-screen) {
+      float: left;
+    }
+
+    label {
+      background: $button-group-background;
+      border: $button-group-border;
+      border-radius: $base-border-radius;
+      color: $button-group-color;
+      cursor: pointer;
+      display: inline-block;
+      font-size: $base-font-size;
+      font-weight: normal;
+      line-height: 1;
+      padding: .75em 1em;
+      margin-right: .5em;
+      width: 100%;
+
+      @include media($large-screen) {
+        border: $button-group-border;
+        width: auto;
+      }
+
+      &:hover {
+        background-color: darken($button-group-background, 3);
+      }
+    }
+
+    input:checked + label {
+      background: $button-group-background-checked;
+      border: 1px solid $button-group-border-checked;
+      box-shadow: inset 0 1px 2px darken($button-group-background-checked, 10);
+      color: $button-group-color-checked;
+    }
+    input:disabled + label {
+      background: $button-group-background-disabled;
+      border: 1px solid silver;
+      box-shadow: inset 0 1px 2px darken($button-group-background-disabled, 10);
+      color: $button-group-color-checked;
+    }
+  }
+}
