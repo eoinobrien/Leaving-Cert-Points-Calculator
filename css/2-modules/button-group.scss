@@ -32,7 +32,6 @@
       line-height: 1;
       padding: .75em 1em;
       margin-right: .5em;
-      width: 100%;
 
       @include media($large-screen) {
         border: $button-group-border;
@@ -54,7 +53,6 @@
       background: $button-group-background-disabled;
       border: 1px solid silver;
       box-shadow: inset 0 1px 2px darken($button-group-background-disabled, 10);
-      color: $button-group-color-checked;
     }
   }
 }
