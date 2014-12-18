@@ -11,7 +11,7 @@ var BOXES = [
   "shorthand"       : "irish",
   "possibleLevels" : ["Higher", "Ordinary", "Foundation"],
   "level"           : "Higher",
-  "grade"           : "B1"
+  "grade"           : "A1"
 },
 {
   "name"            : "Mathematics",
@@ -476,59 +476,59 @@ var SUBJECTS = [
 }
 ];
 var GRADES = [
-{
-  "name"   : "Higher",
-  "weight" : [
-  { "name"  : "A1", "value" : 100},
-  { "name"  : "A2", "value" : 90 },
-  { "name"  : "B1", "value" : 85 },
-  { "name"  : "B2", "value" : 80 },
-  { "name"  : "B3", "value" : 75 },
-  { "name"  : "C1", "value" : 70 },
-  { "name"  : "C2", "value" : 65 },
-  { "name"  : "C3", "value" : 60 },
-  { "name"  : "D1", "value" : 55 },
-  { "name"  : "D2", "value" : 50 },
-  { "name"  : "D3", "value" : 45 },
-  { "name"  : "F",  "value" : 0  }
-  ]
-},
-{
-  "name"   : "Ordinary",
-  "weight" : [
-  { "name"  : "A1", "value" : 60 },
-  { "name"  : "A2", "value" : 50 },
-  { "name"  : "B1", "value" : 45 },
-  { "name"  : "B2", "value" : 40 },
-  { "name"  : "B3", "value" : 35 },
-  { "name"  : "C1", "value" : 30 },
-  { "name"  : "C2", "value" : 25 },
-  { "name"  : "C3", "value" : 20 },
-  { "name"  : "D1", "value" : 15 },
-  { "name"  : "D2", "value" : 10 },
-  { "name"  : "D3", "value" : 5  },
-  { "name"  : "F",  "value" : 0  }
-  ]
-},
-{
-  "name"   : "Foundation",
-  "weight" : [
-  { "name"  : "A1", "value" : 20 },
-  { "name"  : "A2", "value" : 15 },
-  { "name"  : "B1", "value" : 10 },
-  { "name"  : "B2", "value" : 5  },
-  { "name"  : "F",  "value" : 0  }
-  ]
-},
-{
-  "name"   : "Common",
-  "weight" : [
-  { "name"  : "Distinction", "value" : 70 },
-  { "name"  : "Merit",       "value" : 50 },
-  { "name"  : "Pass",        "value" : 30 },
-  { "name"  : "Fail",        "value" : 0  }
-  ]
-}
+  {
+    "name"   : "Higher",
+    "weight" : [
+      { "name"  : "A1",     "value" : 100},
+      { "name"  : "A2",     "value" : 90 },
+      { "name"  : "B1",     "value" : 85 },
+      { "name"  : "B2",     "value" : 80 },
+      { "name"  : "B3",     "value" : 75 },
+      { "name"  : "C1",     "value" : 70 },
+      { "name"  : "C2",     "value" : 65 },
+      { "name"  : "C3",     "value" : 60 },
+      { "name"  : "D1",     "value" : 55 },
+      { "name"  : "D2",     "value" : 50 },
+      { "name"  : "D3",     "value" : 45 },
+      { "name"  : "E, F, NG", "value" : 0  }
+    ]
+  },
+  {
+    "name"   : "Ordinary",
+    "weight" : [
+      { "name"  : "A1",     "value" : 60 },
+      { "name"  : "A2",     "value" : 50 },
+      { "name"  : "B1",     "value" : 45 },
+      { "name"  : "B2",     "value" : 40 },
+      { "name"  : "B3",     "value" : 35 },
+      { "name"  : "C1",     "value" : 30 },
+      { "name"  : "C2",     "value" : 25 },
+      { "name"  : "C3",     "value" : 20 },
+      { "name"  : "D1",     "value" : 15 },
+      { "name"  : "D2",     "value" : 10 },
+      { "name"  : "D3",     "value" : 5  },
+      { "name"  : "E, F, NG", "value" : 0  }
+    ]
+  },
+  {
+    "name"   : "Foundation",
+    "weight" : [
+      { "name"  : "A1",     "value" : 20 },
+      { "name"  : "A2",     "value" : 15 },
+      { "name"  : "B1",     "value" : 10 },
+      { "name"  : "B2",     "value" : 5  },
+      { "name"  : "E, F, NG", "value" : 0  }
+    ]
+  },
+  {
+    "name"   : "Common",
+    "weight" : [
+      { "name"  : "Distinction", "value" : 70 },
+      { "name"  : "Merit",       "value" : 50 },
+      { "name"  : "Pass",        "value" : 30 },
+      { "name"  : "Fail",        "value" : 0  }
+    ]
+  }
 ];
 
 
@@ -580,7 +580,7 @@ addPoints = function(boxesList) {
   return sum;
 };
 
-var lcpoints = angular.module('lcpoints', []);
+var lcpoints = angular.module('lcpoints', ['ngAria']);
 
 lcpoints.controller('PointsController', ['$scope', '$filter', function($scope, $filter) {
   var boxesList = [];
