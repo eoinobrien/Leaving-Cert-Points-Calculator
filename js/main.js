@@ -618,6 +618,7 @@ lcpoints.controller('PointsController', ['$scope', '$filter', function($scope, $
       "grade"           : ""
     });
     $scope.boxes = boxesList;
+    $scope.points    = addPoints(boxesList);
     if(supports_html5_storage()){
       localStorage.setItem("boxesList",JSON.stringify(boxesList));
     }
@@ -625,6 +626,7 @@ lcpoints.controller('PointsController', ['$scope', '$filter', function($scope, $
   $scope.removeBox = function (index){
     boxesList.splice(index,1);
     $scope.boxes = boxesList;
+    $scope.points    = addPoints(boxesList);
     if(supports_html5_storage()){
       localStorage.setItem("boxesList",JSON.stringify(boxesList));
     }
