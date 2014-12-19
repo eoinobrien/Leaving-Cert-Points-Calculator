@@ -589,7 +589,7 @@ lcpoints.controller('PointsController', ['$scope', '$filter', function($scope, $
   var subjectsJSON = SUBJECTS;
   var gradesList = GRADES;
 
-  /*if(supports_html5_storage()){
+  if(supports_html5_storage()){
     boxesList = JSON.parse(localStorage.getItem("boxesList"));
     subjectsList = JSON.parse(localStorage.getItem("subjectsList"));
     if(boxesList === null || subjectsList === null || boxesList === [] || subjectsList === []){
@@ -598,10 +598,10 @@ lcpoints.controller('PointsController', ['$scope', '$filter', function($scope, $
       localStorage.setItem("boxesList",JSON.stringify(boxesList));
       localStorage.setItem("subjectsList",JSON.stringify(subjectsList));
     }
-  }else{*/
+  }else{
     boxesList = $filter('orderBy')(boxesJSON,"id");
     subjectsList = $filter('orderBy')(subjectsJSON,"name");
-  //}
+  }
 
   $scope.boxes     = boxesList;
   $scope.subjects  = subjectsList;
@@ -618,6 +618,16 @@ lcpoints.controller('PointsController', ['$scope', '$filter', function($scope, $
       "grade"           : ""
     });
     $scope.boxes = boxesList;
+    if(supports_html5_storage()){
+      localStorage.setItem("boxesList",JSON.stringify(boxesList));
+    }
+  };
+  $scope.removeBox = function (index){
+    boxesList.splice(index,1);
+    $scope.boxes = boxesList;
+    if(supports_html5_storage()){
+      localStorage.setItem("boxesList",JSON.stringify(boxesList));
+    }
   };
   $scope.updateSubject = function(index){
     var updated = boxesList[index];
@@ -635,7 +645,6 @@ lcpoints.controller('PointsController', ['$scope', '$filter', function($scope, $
     if(supports_html5_storage()){
       localStorage.setItem("boxesList",JSON.stringify(boxesList));
       localStorage.setItem("subjectsList",JSON.stringify(subjectsList));
-      console.log("Updated localStorage");
     }
   };
   $scope.updateLevel = function(index){
@@ -652,7 +661,6 @@ lcpoints.controller('PointsController', ['$scope', '$filter', function($scope, $
     if(supports_html5_storage()){
       localStorage.setItem("boxesList",JSON.stringify(boxesList));
       localStorage.setItem("subjectsList",JSON.stringify(subjectsList));
-      console.log("Updated localStorage");
     }
   };
   $scope.updateGrade = function(index){
@@ -668,7 +676,6 @@ lcpoints.controller('PointsController', ['$scope', '$filter', function($scope, $
     if(supports_html5_storage()){
       localStorage.setItem("boxesList",JSON.stringify(boxesList));
       localStorage.setItem("subjectsList",JSON.stringify(subjectsList));
-      console.log("Updated localStorage");
     }
   };
 }]);
