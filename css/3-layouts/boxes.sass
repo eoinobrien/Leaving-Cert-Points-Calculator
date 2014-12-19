@@ -2,8 +2,14 @@ section#boxes
   padding: rem(10px)
   margin-bottom: $h5-font-size * 3
 
-  .add-box
+  .link, .add-box
     cursor: pointer
+  .link
+    color: $base-link-color
+    text-decoration: underline
+    &:hover
+      color: $hover-link-color
+  .add-box
     width: 100%
 
 fieldset
