@@ -632,11 +632,17 @@ html {
 header {
   padding: 0.625rem; }
 
-section#boxes {
+#boxes {
   padding: 0.625rem;
   margin-bottom: 3.75em; }
-  section#boxes .add-box {
-    cursor: pointer;
+  #boxes .link, #boxes .add-box {
+    cursor: pointer; }
+  #boxes .link {
+    color: #477dca;
+    text-decoration: underline; }
+    #boxes .link:hover {
+      color: #2c5999; }
+  #boxes .add-box {
     width: 100%; }
 
 fieldset {
