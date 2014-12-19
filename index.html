@@ -35,11 +35,11 @@
         <span ng-if="box .possibleLevels.length === 0">
           <span>
             <input type="radio" ng-disabled="true">
-            <label title="Higher">H</label>
+            <label title="Higher - Please Choose Subject First">H</label>
           </span>
           <span>
             <input type="radio" ng-disabled="true">
-            <label title="Ordinary">O</label>
+            <label title="Ordinary - Please Choose Subject First">O</label>
           </span>
         </span>
       </fieldset>
@@ -48,7 +48,9 @@
       <select id="grade{{index}}" class="grade" ng-repeat="grade in grades" ng-if="box.level === grade.name" ng-model="box.grade" ng-change="updateGrade(index)" tabindex="0">
         <option ng-value="mark.name" ng-repeat="mark in grade.weight">{{mark.name}}</option>
       </select>
-      <select id="grade{{index}}" class="grade" ng-if="box.level.length === 0" ng-disabled="true"></select>
+      <select id="grade{{index}}" class="grade" ng-if="box.level.length === 0" ng-disabled="true" title="Please Choose Subject First">
+        <option selected>Please Choose Subject First</option>
+      </select>
 
       <span class="link" ng-click="removeBox(index)">Remove</span>
       <hr>
