@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="The Definitive list of everything you need to take to College, all in one easy-to-use place.">
+  <meta name="description" content="Simple, Easy-to-use Leaving Certificate Points Calculator for Students, Teachers and Parents.">
   <title>Leaving Certificate Points Calculator</title>
 
   <link href="css/app.css" rel="stylesheet">
@@ -18,6 +18,11 @@
   </header>
 
   <main id="boxes" role="main">
+    <div class="clear">
+      <button class="clear" ng-click="blankTemp()">Blank Template</button>
+      <button class="clear" ng-click="defaultTemp()">Default Template</button>
+    </div>
+
     <section ng-repeat="(index, box) in boxes">
       <aside>{{index + 1}}</aside>
       <div class="div-subjects">
