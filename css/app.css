@@ -709,8 +709,6 @@ header {
           width: 1.90725%; }
           #boxes section aside:last-child {
             margin-right: 0; } }
-      #boxes section aside.link {
-        font-size: 16px; }
     #boxes section div.div-subjects {
       float: left;
       display: block;
@@ -743,7 +741,7 @@ header {
           float: left;
           display: block;
           margin-right: 2.35765%;
-          width: 14.70196%; }
+          width: 18.96686%; }
           #boxes section fieldset:last-child {
             margin-right: 0; } }
     #boxes section div.div-grade {
