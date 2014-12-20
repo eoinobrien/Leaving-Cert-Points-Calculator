@@ -725,6 +725,19 @@ header {
       color: #2b387c; }
   #boxes .add-box {
     width: 100%; }
+  #boxes div.clear {
+    display: block; }
+    #boxes div.clear:after {
+      content: "";
+      display: table;
+      clear: both; }
+    #boxes div.clear button {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      #boxes div.clear button:last-child {
+        margin-right: 0; }
 
 legend, div > label {
   font-weight: 700;

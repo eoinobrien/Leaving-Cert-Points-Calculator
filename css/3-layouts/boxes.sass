@@ -45,12 +45,15 @@
       color: $hover-link-color
   .add-box
     width: 100%
+  div.clear
+    @include row()
+    button
+      @include span-columns(6)
 
 legend, div>label
   font-weight: 700
   text-transform: uppercase
   font-size: 0.8em
-
 select
   padding: .6em 1em
   background: darken($base-background-color, 5)
