@@ -1,2 +1,17 @@
 header
+  @include outer-container
+  @include row()
   padding: rem(10px)
+  text-align: center
+  h1
+    @include span-columns(12)
+    @include media($medium-screen)
+      @include span-columns(9)
+    vertical-align: middle
+  svg.logo
+    @include span-columns(12)
+    @include media($medium-screen)
+      @include span-columns(3)
+    max-width: rem(100px)
+    height: 100%
+    margin: 0 auto
