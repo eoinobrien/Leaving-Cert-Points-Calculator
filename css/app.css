@@ -761,15 +761,6 @@ header {
           width: 23.23176%; }
           #boxes section div.div-grade:last-child {
             margin-right: 0; } }
-  #boxes:first-child {
-    border-bottom: 0; }
-  #boxes .link, #boxes .add-box {
-    cursor: pointer; }
-  #boxes .link {
-    color: #3f51b5;
-    text-decoration: underline; }
-    #boxes .link:hover {
-      color: #2b387c; }
   #boxes .add-box {
     width: 100%; }
   #boxes div.clear {

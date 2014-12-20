@@ -32,8 +32,8 @@
 
   <main id="boxes" role="main">
     <div class="clear">
-      <button class="clear" ng-click="blankTemp()">Blank Template</button>
-      <button class="clear" ng-click="defaultTemp()">Default Template</button>
+      <button class="clear" ng-click="blankTemp()" title="Remove all subjects">Blank Template</button>
+      <button class="clear" ng-click="defaultTemp()" title="Revert to the default 3 subjects">Default Template</button>
     </div>
 
     <section ng-repeat="(index, box) in boxes">
@@ -74,8 +74,11 @@
         </select>
       </div>
 
-      <aside class="link" ng-click="removeBox(index)">Remove</aside>
+      <a href="" ng-click="removeBox(index)" tabindex="0" title="Remove Subject: {{box.name}}">Remove</a>
 
+    </section>
+    <section ng-if="boxes.length === 0">
+      <h1>Add a subject using the button below to begin</h1>
     </section>
     <button class="add-box" ng-click="addBox()">
       Add another subject +
