@@ -13,7 +13,7 @@ select {
   font-size: $form-font-size;
 }
 
-label {
+label,legend {
   font-weight: bold;
   margin-bottom: $base-spacing / 4;
 

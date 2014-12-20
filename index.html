@@ -19,11 +19,13 @@
 
   <main id="boxes" role="main">
     <section ng-repeat="(index, box) in boxes">
-
-      <label for="subjects{{index}}">Subject</label>
-      <select id="subjects{{index}}" class="subject" ng-model="box.name" ng-change="updateSubject(index)" tabindex="0">
-        <option ng-repeat="subject in subjects" ng-value="subject.name">{{subject.name}}</option>
-      </select>
+      <aside>{{index + 1}}</aside>
+      <div class="div-subjects">
+        <label for="subjects{{index}}">Subject</label>
+        <select id="subjects{{index}}" class="subject" title="{{box.name}}" ng-model="box.name" ng-change="updateSubject(index)" tabindex="0">
+          <option ng-repeat="subject in subjects" ng-value="subject.name">{{subject.name}}</option>
+        </select>
+      </div>
 
       <fieldset class="radiogroup button-group" id="level" role="radiogroup" aria-labelledby="level_label">
         <legend id="level_label">Level</legend>
@@ -35,27 +37,28 @@
         <span ng-if="box .possibleLevels.length === 0">
           <span>
             <input type="radio" ng-disabled="true">
-            <label title="Higher - Please Choose Subject First">H</label>
+            <label title="Higher - Please Choose a Subject First">H</label>
           </span>
           <span>
             <input type="radio" ng-disabled="true">
-            <label title="Ordinary - Please Choose Subject First">O</label>
+            <label title="Ordinary - Please Choose a Subject First">O</label>
           </span>
         </span>
       </fieldset>
 
-      <label for="grade{{index}}">Grade</label>
-      <select id="grade{{index}}" class="grade" ng-repeat="grade in grades" ng-if="box.level === grade.name" ng-model="box.grade" ng-change="updateGrade(index)" tabindex="0">
-        <option ng-value="mark.name" ng-repeat="mark in grade.weight">{{mark.name}}</option>
-      </select>
-      <select id="grade{{index}}" class="grade" ng-if="box.level.length === 0" ng-disabled="true" title="Please Choose Subject First">
-        <option selected>Please Choose Subject First</option>
-      </select>
+      <div class="div-grade">
+        <label for="grade{{index}}">Grade</label>
+        <select id="grade{{index}}" class="grade" ng-repeat="grade in grades" ng-if="box.level === grade.name" ng-model="box.grade" ng-change="updateGrade(index)" tabindex="0" title="{{box.grade}}">
+          <option ng-value="mark.name" ng-repeat="mark in grade.weight">{{mark.name}}</option>
+        </select>
+        <select id="grade{{index}}" class="grade" ng-if="box.level.length === 0" ng-disabled="true" title="Please Choose a Subject First">
+          <option selected>Choose a Subject First</option>
+        </select>
+      </div>
 
-      <span class="link" ng-click="removeBox(index)">Remove</span>
-      <hr>
+      <aside class="link" ng-click="removeBox(index)">Remove</aside>
+
     </section>
-
     <button class="add-box" ng-click="addBox()">
       Add another subject +
     </button>
