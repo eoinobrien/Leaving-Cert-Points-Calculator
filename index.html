@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="lcpoints" lang="en">
+<html ng-app="lcpoints" lang="en" manifest="lcpoints.appcache">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -72,7 +72,7 @@
           <select id="grade{{index}}" class="grade" ng-if="box.level.length === 0" ng-disabled="true" title="Please Choose a Subject First">
             <option selected>Choose a Subject First</option>
           </select>
-          <a href="" ng-click="removeBox(index)" tabindex="0" title="Remove Subject: {{box.name}}">Remove</a>
+          <a href="" ng-click="removeBox(index)" tabindex="0" title="Remove Subject: {{box.name}}">Remove {{box.name}}</a>
         </div>
 
       </section>
