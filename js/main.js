@@ -632,32 +632,34 @@ lcpoints.controller('PointsController', ['$scope', '$filter', function($scope, $
     }
   };
   $scope.blankTemp = function(){
-  boxesList = [];
-  $scope.boxes  = boxesList;
-  $scope.points = addPoints(boxesList);
-  if(supports_html5_storage()){
-    localStorage.setItem("boxesList",JSON.stringify(boxesList));
+    boxesList = [];
+    $scope.boxes  = boxesList;
+
+    $scope.points = addPoints(boxesList);
+    if(supports_html5_storage()){
+      localStorage.setItem("boxesList",JSON.stringify(boxesList));
     }
   };
   $scope.defaultTemp = function(){
-  boxesList = $filter('orderBy')(boxesJSON,"id");
-  for(var i = 0; i < boxesList.length; i++){
-    var subIndex = searchGetIndex(boxesList[i].name, subjectsList);
-    boxesList[i].grade = subjectsList[subIndex].grade;
-    boxesList[i].level = subjectsList[subIndex].level;
-  }
-  $scope.boxes  = boxesList;
-  $scope.points = addPoints(boxesList);
-  if(supports_html5_storage()){
-    localStorage.setItem("boxesList",JSON.stringify(boxesList));
+    boxesList = [];
+    boxesList = $filter('orderBy')(boxesJSON,"id");
+    for(var i = 0; i < boxesList.length; i++){
+      var subIndex = searchGetIndex(boxesList[i].name, subjectsList);
+      boxesList[i].grade = subjectsList[subIndex].grade;
+      boxesList[i].level = subjectsList[subIndex].level;
+    }
+    $scope.boxes  = boxesList;
+    $scope.points = addPoints(boxesList);
+    if(supports_html5_storage()){
+      localStorage.setItem("boxesList",JSON.stringify(boxesList));
     }
   };
 
 
   $scope.updateSubject = function(index){
-    var updated = boxesList[index];
+    var updated    = boxesList[index];
     var updateName = updated.name;
-    var subIndex = searchGetIndex(updateName, subjectsList);
+    var subIndex   = searchGetIndex(updateName, subjectsList);
 
     updated.shorthand = subjectsList[subIndex].shorthand;
     updated.possibleLevels = subjectsList[subIndex].possibleLevels;
@@ -673,9 +675,9 @@ lcpoints.controller('PointsController', ['$scope', '$filter', function($scope, $
     }
   };
   $scope.updateLevel = function(index){
-    var updated = boxesList[index];
+    var updated    = boxesList[index];
     var updateName = updated.name;
-    var subIndex = searchGetIndex(updateName, subjectsList);
+    var subIndex   = searchGetIndex(updateName, subjectsList);
 
     subjectsList[subIndex].level = updated.level;
     updated.grade = subjectsList[subIndex].grade;
@@ -689,9 +691,9 @@ lcpoints.controller('PointsController', ['$scope', '$filter', function($scope, $
     }
   };
   $scope.updateGrade = function(index){
-    var updated = boxesList[index];
+    var updated    = boxesList[index];
     var updateName = updated.name;
-    var subIndex = searchGetIndex(updateName, subjectsList);
+    var subIndex   = searchGetIndex(updateName, subjectsList);
 
     subjectsList[subIndex].grade = updated.grade;
 
