@@ -1,0 +1,13 @@
+CACHE MANIFEST
+# 2014-12-21:v1
+
+# Explicitly cached 'master entries'.
+CACHE:
+index.html
+css/app.css
+js/main.js
+js/0-vendor/angular.min.js
+js/0-vendor/angular.min.js.map
+js/0-vendor/angular-aria.min.js
+js/0-vendor/angular-aria.min.js.map
+js/0-vendor/modernizr-2.6.2.min.js
