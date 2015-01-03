@@ -95,7 +95,7 @@
             <select id="grade{{index}}" class="grade" ng-if="box.level.length === 0" ng-disabled="true" title="Please Choose a Subject First">
               <option selected>Choose a Subject First</option>
             </select>
-            <a href="" ng-click="removeBox(index)" tabindex="0" title="Remove Subject: {{box.name}}">Remove {{box.name || Empty Subject}}</a>
+            <a href="" ng-click="removeBox(index)" tabindex="0" title="Remove Subject: {{box.name}}">Remove {{box.name || "Blank Subject"}}</a>
           </div>
 
         </li>
