@@ -58,56 +58,58 @@
         <button class="clear" ng-click="defaultTemp()" title="Revert to the default 3 subjects">Default Template</button>
       </div>
 
-      <section ng-repeat="(index, box) in boxes">
-        <aside>{{index + 1}}</aside>
-        <div class="div-subjects">
-          <label for="subjects{{index}}">Subject</label>
-          <select id="subjects{{index}}" class="subject" title="{{box.name}}" ng-model="box.name" ng-change="updateSubject(index)" tabindex="0">
-            <option ng-repeat="subject in subjects" ng-value="subject.name">{{subject.name}}</option>
-          </select>
-        </div>
+      <ul>
+        <li ng-repeat="(index, box) in boxes">
+          <aside>{{index + 1}}</aside>
+          <div class="div-subjects">
+            <label for="subjects{{index}}">Subject</label>
+            <select id="subjects{{index}}" class="subject" title="{{box.name}}" ng-model="box.name" ng-change="updateSubject(index)" tabindex="0">
+              <option ng-repeat="subject in subjects" ng-value="subject.name">{{subject.name}}</option>
+            </select>
+          </div>
 
-        <fieldset class="radiogroup button-group" id="level" role="radiogroup" aria-labelledby="level_label">
-          <legend id="level_label">Level</legend>
-          <span ng-repeat="level in box.possibleLevels" title="{{level}}">
-            <input id="level_{{index}}_{{$index}}" type="radio" name="level_{{index}}" ng-model="box.level" ng-value="level" ng-change="updateLevel(index)" tabindex="0">
-            <label for="level_{{index}}_{{$index}}">{{level | limitTo:1}}</label>
-          </span>
-
-          <span ng-if="box .possibleLevels.length === 0">
-            <span>
-              <input type="radio" ng-disabled="true">
-              <label title="Higher - Please Choose a Subject First">H</label>
+          <fieldset class="radiogroup button-group" id="level" role="radiogroup" aria-labelledby="level_label">
+            <legend id="level_label">Level</legend>
+            <span ng-repeat="level in box.possibleLevels">
+              <input id="level_{{index}}_{{$index}}" type="radio" name="level_{{index}}" ng-model="box.level" ng-value="level" ng-change="updateLevel(index)" tabindex="0">
+              <label for="level_{{index}}_{{$index}}" title="{{level}}">{{level | limitTo:1}} <span class="screenreader">{{level}}</span></label>
             </span>
-            <span>
-              <input type="radio" ng-disabled="true">
-              <label title="Ordinary - Please Choose a Subject First">O</label>
+
+            <span ng-if="box .possibleLevels.length === 0">
+              <span>
+                <input type="radio" ng-disabled="true">
+                <label title="Higher - Please Choose a Subject First">H</label>
+              </span>
+              <span>
+                <input type="radio" ng-disabled="true">
+                <label title="Ordinary - Please Choose a Subject First">O</label>
+              </span>
             </span>
-          </span>
-        </fieldset>
+          </fieldset>
 
-        <div class="div-grade">
-          <label for="grade{{index}}">Grade</label>
-          <select id="grade{{index}}" class="grade" ng-repeat="grade in grades" ng-if="box.level === grade.name" ng-model="box.grade" ng-change="updateGrade(index)" tabindex="0" title="{{box.grade}}">
-            <option ng-value="mark.name" ng-repeat="mark in grade.weight">{{mark.name}}</option>
-          </select>
-          <select id="grade{{index}}" class="grade" ng-if="box.level.length === 0" ng-disabled="true" title="Please Choose a Subject First">
-            <option selected>Choose a Subject First</option>
-          </select>
-          <a href="" ng-click="removeBox(index)" tabindex="0" title="Remove Subject: {{box.name}}">Remove {{box.name}}</a>
-        </div>
+          <div class="div-grade">
+            <label for="grade{{index}}">Grade</label>
+            <select id="grade{{index}}" class="grade" ng-repeat="grade in grades" ng-if="box.level === grade.name" ng-model="box.grade" ng-change="updateGrade(index)" tabindex="0" title="{{box.grade}}">
+              <option ng-value="mark.name" ng-repeat="mark in grade.weight">{{mark.name}}</option>
+            </select>
+            <select id="grade{{index}}" class="grade" ng-if="box.level.length === 0" ng-disabled="true" title="Please Choose a Subject First">
+              <option selected>Choose a Subject First</option>
+            </select>
+            <a href="" ng-click="removeBox(index)" tabindex="0" title="Remove Subject: {{box.name}}">Remove {{box.name || Empty Subject}}</a>
+          </div>
 
-      </section>
-      <section ng-if="boxes.length === 0">
-        <h1>Add a subject using the button below to begin</h1>
-      </section>
+        </li>
+        <li ng-if="boxes.length === 0">
+          <h1>Add a subject using the button below to begin</h1>
+        </li>]
+      </ul>
       <button class="add-box" ng-click="addBox()">
         Add another subject +
       </button>
     </main>
 
     <footer>
-      <h1>Your Total Points: {{points}}</h1>
+      <h1 role="status" aria-live="polite" aria-atomic="true" aria-relevant="all">Your Total Points: {{points}}</h1>
     </footer>
 
 
@@ -115,5 +117,5 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular-aria.min.js"></script>
     <script src="js/main.js"></script>
 
-</body>
-</html>
+  </body>
+  </html>
