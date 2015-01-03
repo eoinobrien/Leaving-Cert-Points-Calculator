@@ -625,6 +625,11 @@ html {
     border: 1px solid silver;
     box-shadow: inset 0 1px 2px #bfbfbf; }
 
+.screenreader {
+  position: absolute;
+  top: 0;
+  left: -9999px; }
+
 header {
   max-width: 68em;
   margin-left: auto;
@@ -679,53 +684,54 @@ header {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 3.75em; }
+  margin-bottom: 3.75em;
+  padding: 10px; }
   #boxes:after {
     content: "";
     display: table;
     clear: both; }
-  #boxes section {
+  #boxes ul li {
     display: block;
     padding: 0.625rem;
     border-top: 3px solid #dddddd; }
-    #boxes section:after {
+    #boxes ul li:after {
       content: "";
       display: table;
       clear: both; }
-    #boxes section aside {
+    #boxes ul li aside {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 6.17215%;
       color: #999999;
       font-size: 2.5rem; }
-      #boxes section aside:last-child {
+      #boxes ul li aside:last-child {
         margin-right: 0; }
       @media screen and (min-width: 53.75em) {
-        #boxes section aside {
+        #boxes ul li aside {
           float: left;
           display: block;
           margin-right: 2.35765%;
           width: 1.90725%; }
-          #boxes section aside:last-child {
+          #boxes ul li aside:last-child {
             margin-right: 0; } }
-    #boxes section div.div-subjects {
+    #boxes ul li div.div-subjects {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 91.4702%;
       margin-right: 0; }
-      #boxes section div.div-subjects:last-child {
+      #boxes ul li div.div-subjects:last-child {
         margin-right: 0; }
       @media screen and (min-width: 53.75em) {
-        #boxes section div.div-subjects {
+        #boxes ul li div.div-subjects {
           float: left;
           display: block;
           margin-right: 2.35765%;
           width: 48.82117%; }
-          #boxes section div.div-subjects:last-child {
+          #boxes ul li div.div-subjects:last-child {
             margin-right: 0; } }
-    #boxes section fieldset {
+    #boxes ul li fieldset {
       float: left;
       display: block;
       margin-right: 2.35765%;
@@ -734,30 +740,30 @@ header {
       background: white;
       border: none;
       padding: 0; }
-      #boxes section fieldset:last-child {
+      #boxes ul li fieldset:last-child {
         margin-right: 0; }
       @media screen and (min-width: 53.75em) {
-        #boxes section fieldset {
+        #boxes ul li fieldset {
           float: left;
           display: block;
           margin-right: 2.35765%;
           width: 18.96686%; }
-          #boxes section fieldset:last-child {
+          #boxes ul li fieldset:last-child {
             margin-right: 0; } }
-    #boxes section div.div-grade {
+    #boxes ul li div.div-grade {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 40.29137%; }
-      #boxes section div.div-grade:last-child {
+      #boxes ul li div.div-grade:last-child {
         margin-right: 0; }
       @media screen and (min-width: 53.75em) {
-        #boxes section div.div-grade {
+        #boxes ul li div.div-grade {
           float: left;
           display: block;
           margin-right: 2.35765%;
           width: 23.23176%; }
-          #boxes section div.div-grade:last-child {
+          #boxes ul li div.div-grade:last-child {
             margin-right: 0; } }
   #boxes .add-box {
     width: 100%; }
