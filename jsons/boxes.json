@@ -4,21 +4,21 @@ var BOXES = [
   "shorthand"       : "eng",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"           : "Higher",
-  "grade"           : "A1"
+  "grade"           : "H1"
 },
 {
   "name"            : "Irish",
   "shorthand"       : "irish",
   "possibleLevels" : ["Higher", "Ordinary", "Foundation"],
   "level"           : "Higher",
-  "grade"           : "A1"
+  "grade"           : "H1"
 },
 {
   "name"            : "Mathematics",
   "shorthand"       : "maths",
   "possibleLevels" : ["Higher", "Ordinary", "Foundation"],
   "level"           : "Higher",
-  "grade"           : "A1"
+  "grade"           : "H1"
 },
 {
   "name"            : "",
