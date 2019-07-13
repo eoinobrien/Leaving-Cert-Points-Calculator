@@ -411,6 +411,14 @@ var SUBJECTS = [
   "default"   : false
 },
 {
+  "name"      : "Politics & Society",
+  "shorthand" : "politics",
+  "possibleLevels" : ["Higher", "Ordinary"],
+  "level"     : "Higher",
+  "grade"     : "H1",
+  "default"   : false
+},
+{
   "name"      : "Portuguese",
   "shorthand" : "portuguese",
   "possibleLevels" : ["Higher", "Ordinary"],
