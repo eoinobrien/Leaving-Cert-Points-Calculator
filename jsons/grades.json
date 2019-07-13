@@ -1,55 +1,44 @@
 [
-  {
-    "name"   : "Higher",
-    "weight" : [
-      { "name"  : "A1", "value" : 100},
-      { "name"  : "A2", "value" : 90 },
-      { "name"  : "B1", "value" : 85 },
-      { "name"  : "B2", "value" : 80 },
-      { "name"  : "B3", "value" : 75 },
-      { "name"  : "C1", "value" : 70 },
-      { "name"  : "C2", "value" : 65 },
-      { "name"  : "C3", "value" : 60 },
-      { "name"  : "D1", "value" : 55 },
-      { "name"  : "D2", "value" : 50 },
-      { "name"  : "D3", "value" : 45 },
-      { "name"  : "F",  "value" : 0  }
-    ]
-  },
-  {
-    "name"   : "Ordinary",
-    "weight" : [
-      { "name"  : "A1", "value" : 60 },
-      { "name"  : "A2", "value" : 50 },
-      { "name"  : "B1", "value" : 45 },
-      { "name"  : "B2", "value" : 40 },
-      { "name"  : "B3", "value" : 35 },
-      { "name"  : "C1", "value" : 30 },
-      { "name"  : "C2", "value" : 25 },
-      { "name"  : "C3", "value" : 20 },
-      { "name"  : "D1", "value" : 15 },
-      { "name"  : "D2", "value" : 10 },
-      { "name"  : "D3", "value" : 5  },
-      { "name"  : "F",  "value" : 0  }
-    ]
-  },
-  {
-    "name"   : "Foundation",
-    "weight" : [
-      { "name"  : "A1", "value" : 20 },
-      { "name"  : "A2", "value" : 15 },
-      { "name"  : "B1", "value" : 10 },
-      { "name"  : "B2", "value" : 5  },
-      { "name"  : "F",  "value" : 0  }
-    ]
-  },
-  {
-    "name"   : "Common",
-    "weight" : [
-      { "name"  : "Distinction", "value" : 70 },
-      { "name"  : "Merit",       "value" : 50 },
-      { "name"  : "Pass",        "value" : 30 },
-      { "name"  : "Fail",        "value" : 0  }
-    ]
-  }
+	{
+		"name": "Higher",
+		"weight": [
+			{ "name": "H1", "value": 100 },
+			{ "name": "H2", "value": 88 },
+			{ "name": "H3", "value": 77 },
+			{ "name": "H4", "value": 66 },
+			{ "name": "H5", "value": 56 },
+			{ "name": "H6", "value": 46 },
+			{ "name": "H7", "value": 37 },
+			{ "name": "H8", "value": 0 }
+		]
+	},
+	{
+		"name": "Ordinary",
+		"weight": [
+			{ "name": "O1", "value": 56 },
+			{ "name": "O2", "value": 46 },
+			{ "name": "O3", "value": 37 },
+			{ "name": "O4", "value": 28 },
+			{ "name": "O5", "value": 20 },
+			{ "name": "O6", "value": 12 },
+			{ "name": "O7", "value": 0 },
+			{ "name": "O8", "value": 0 }
+		]
+	},
+	{
+		"name": "Foundation",
+		"weight": [
+			{ "name": "F1", "value": 20 },
+			{ "name": "F2", "value": 12 }
+		]
+	},
+	{
+		"name": "Common",
+		"weight": [
+			{ "name": "Distinction", "value": 66 },
+			{ "name": "Merit", "value": 46 },
+			{ "name": "Pass", "value": 28 },
+			{ "name": "Fail", "value": 0 }
+		]
+	}
 ]

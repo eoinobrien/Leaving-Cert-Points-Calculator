@@ -4,21 +4,21 @@ var BOXES = [
   "shorthand"       : "eng",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"           : "Higher",
-  "grade"           : "A1"
+  "grade"           : "H1"
 },
 {
   "name"            : "Irish",
   "shorthand"       : "irish",
   "possibleLevels" : ["Higher", "Ordinary", "Foundation"],
   "level"           : "Higher",
-  "grade"           : "A1"
+  "grade"           : "H1"
 },
 {
   "name"            : "Mathematics",
   "shorthand"       : "maths",
   "possibleLevels" : ["Higher", "Ordinary", "Foundation"],
   "level"           : "Higher",
-  "grade"           : "A1"
+  "grade"           : "H1"
 },
 {
   "name"            : "",
@@ -55,7 +55,7 @@ var SUBJECTS = [
   "shorthand" : "accounting",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -63,7 +63,7 @@ var SUBJECTS = [
   "shorthand" : "agri-economics",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -71,7 +71,7 @@ var SUBJECTS = [
   "shorthand" : "agri-sci",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -79,7 +79,7 @@ var SUBJECTS = [
   "shorthand" : "a-greek",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -87,7 +87,7 @@ var SUBJECTS = [
   "shorthand" : "applied-maths",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -95,15 +95,15 @@ var SUBJECTS = [
   "shorthand" : "arabic",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
-  "name"      : "Art",
+  "name"      : "Art, History & Appreciation",
   "shorthand" : "art",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -111,7 +111,7 @@ var SUBJECTS = [
   "shorthand" : "biology",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -119,7 +119,7 @@ var SUBJECTS = [
   "shorthand" : "bulgarian",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -127,7 +127,7 @@ var SUBJECTS = [
   "shorthand" : "bus",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -135,7 +135,7 @@ var SUBJECTS = [
   "shorthand" : "chem",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -143,7 +143,7 @@ var SUBJECTS = [
   "shorthand" : "classical",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -151,7 +151,7 @@ var SUBJECTS = [
   "shorthand" : "construction",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -159,7 +159,7 @@ var SUBJECTS = [
   "shorthand" : "croatian",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -167,7 +167,7 @@ var SUBJECTS = [
   "shorthand" : "czech",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -175,7 +175,7 @@ var SUBJECTS = [
   "shorthand" : "danish",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -183,7 +183,7 @@ var SUBJECTS = [
   "shorthand" : "dcg",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -191,7 +191,7 @@ var SUBJECTS = [
   "shorthand" : "dutch",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -199,7 +199,7 @@ var SUBJECTS = [
   "shorthand" : "economics",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -207,7 +207,7 @@ var SUBJECTS = [
   "shorthand" : "engineering",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -215,7 +215,7 @@ var SUBJECTS = [
   "shorthand" : "eng",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : true
 },
 {
@@ -223,7 +223,7 @@ var SUBJECTS = [
   "shorthand" : "estonian",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -231,7 +231,7 @@ var SUBJECTS = [
   "shorthand" : "finnish",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -239,7 +239,7 @@ var SUBJECTS = [
   "shorthand" : "french",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -247,7 +247,7 @@ var SUBJECTS = [
   "shorthand" : "geo",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -255,7 +255,7 @@ var SUBJECTS = [
   "shorthand" : "german",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -263,7 +263,7 @@ var SUBJECTS = [
   "shorthand" : "hebrew",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -271,7 +271,7 @@ var SUBJECTS = [
   "shorthand" : "history-1",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -279,7 +279,7 @@ var SUBJECTS = [
   "shorthand" : "history-2",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -287,7 +287,7 @@ var SUBJECTS = [
   "shorthand" : "home-ec",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -295,7 +295,7 @@ var SUBJECTS = [
   "shorthand" : "hungarian",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -303,7 +303,7 @@ var SUBJECTS = [
   "shorthand" : "irish",
   "possibleLevels" : ["Higher", "Ordinary", "Foundation"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : true
 },
 {
@@ -311,7 +311,7 @@ var SUBJECTS = [
   "shorthand" : "ita",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -319,7 +319,7 @@ var SUBJECTS = [
   "shorthand" : "japanese",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -327,7 +327,7 @@ var SUBJECTS = [
   "shorthand" : "latin",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -335,7 +335,7 @@ var SUBJECTS = [
   "shorthand" : "latvian",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -351,15 +351,23 @@ var SUBJECTS = [
   "shorthand" : "lithuanian",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
+},
+{
+  "name"      : "Maltese",
+  "shorthand" : "maltese",
+  "possibleLevels" : ["Higher", "Ordinary"],
+  "level"     : "Higher",
+  "grade"     : "H1",
+  "default"   : true
 },
 {
   "name"      : "Mathematics",
   "shorthand" : "maths",
   "possibleLevels" : ["Higher", "Ordinary", "Foundation"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : true
 },
 {
@@ -367,7 +375,7 @@ var SUBJECTS = [
   "shorthand" : "m-greek",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -375,7 +383,7 @@ var SUBJECTS = [
   "shorthand" : "music",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -383,7 +391,7 @@ var SUBJECTS = [
   "shorthand" : "physics",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -391,7 +399,7 @@ var SUBJECTS = [
   "shorthand" : "physics-chem",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -399,7 +407,15 @@ var SUBJECTS = [
   "shorthand" : "polish",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
+  "default"   : false
+},
+{
+  "name"      : "Politics & Society",
+  "shorthand" : "politics",
+  "possibleLevels" : ["Higher", "Ordinary"],
+  "level"     : "Higher",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -407,7 +423,7 @@ var SUBJECTS = [
   "shorthand" : "portuguese",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -415,7 +431,7 @@ var SUBJECTS = [
   "shorthand" : "religion",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -423,7 +439,7 @@ var SUBJECTS = [
   "shorthand" : "romanian",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -431,7 +447,7 @@ var SUBJECTS = [
   "shorthand" : "russian",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -439,7 +455,15 @@ var SUBJECTS = [
   "shorthand" : "slovakian",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
+  "default"   : false
+},
+{
+  "name"      : "Slovenian",
+  "shorthand" : "slovenian",
+  "possibleLevels" : ["Higher", "Ordinary"],
+  "level"     : "Higher",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -447,7 +471,7 @@ var SUBJECTS = [
   "shorthand" : "spanish",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -455,7 +479,7 @@ var SUBJECTS = [
   "shorthand" : "swedish",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -463,7 +487,7 @@ var SUBJECTS = [
   "shorthand" : "technology",
   "possibleLevels" : ["Higher", "Ordinary"],
   "level"     : "Higher",
-  "grade"     : "A1",
+  "grade"     : "H1",
   "default"   : false
 },
 {
@@ -479,54 +503,43 @@ var GRADES = [
   {
     "name"   : "Higher",
     "weight" : [
-      { "name"  : "A1",     "value" : 100},
-      { "name"  : "A2",     "value" : 90 },
-      { "name"  : "B1",     "value" : 85 },
-      { "name"  : "B2",     "value" : 80 },
-      { "name"  : "B3",     "value" : 75 },
-      { "name"  : "C1",     "value" : 70 },
-      { "name"  : "C2",     "value" : 65 },
-      { "name"  : "C3",     "value" : 60 },
-      { "name"  : "D1",     "value" : 55 },
-      { "name"  : "D2",     "value" : 50 },
-      { "name"  : "D3",     "value" : 45 },
-      { "name"  : "E, F, NG", "value" : 0  }
+		{ "name" : "H1", "value" : 100 },
+		{ "name" : "H2", "value" : 88 },
+		{ "name" : "H3", "value" : 77 },
+		{ "name" : "H4", "value" : 66 },
+		{ "name" : "H5", "value" : 56 },
+		{ "name" : "H6", "value" : 46 },
+		{ "name" : "H7", "value" : 37 },
+		{ "name" : "H8", "value" : 0 }
     ]
   },
   {
     "name"   : "Ordinary",
     "weight" : [
-      { "name"  : "A1",     "value" : 60 },
-      { "name"  : "A2",     "value" : 50 },
-      { "name"  : "B1",     "value" : 45 },
-      { "name"  : "B2",     "value" : 40 },
-      { "name"  : "B3",     "value" : 35 },
-      { "name"  : "C1",     "value" : 30 },
-      { "name"  : "C2",     "value" : 25 },
-      { "name"  : "C3",     "value" : 20 },
-      { "name"  : "D1",     "value" : 15 },
-      { "name"  : "D2",     "value" : 10 },
-      { "name"  : "D3",     "value" : 5  },
-      { "name"  : "E, F, NG", "value" : 0  }
+		{ "name" : "O1", "value" : 56 },
+		{ "name" : "O2", "value" : 46 },
+		{ "name" : "O3", "value" : 37 },
+		{ "name" : "O4", "value" : 28 },
+		{ "name" : "O5", "value" : 20 },
+		{ "name" : "O6", "value" : 12 },
+		{ "name" : "O7", "value" : 0 },
+		{ "name" : "O8", "value" : 0 }
     ]
   },
   {
     "name"   : "Foundation",
     "weight" : [
-      { "name"  : "A1",     "value" : 20 },
-      { "name"  : "A2",     "value" : 15 },
-      { "name"  : "B1",     "value" : 10 },
-      { "name"  : "B2",     "value" : 5  },
-      { "name"  : "E, F, NG", "value" : 0  }
+      { "name" : "F1", "value" : 20 },
+      { "name" : "F2", "value" : 12 }
     ]
   },
   {
     "name"   : "Common",
     "weight" : [
-      { "name"  : "Distinction", "value" : 70 },
-      { "name"  : "Merit",       "value" : 50 },
-      { "name"  : "Pass",        "value" : 30 },
-      { "name"  : "Fail",        "value" : 0  }
+      { "name"  : "Distinction", "value" : 66 },
+      { "name"  : "Merit", "value" : 46 },
+      { "name"  : "Pass", "value" : 28 },
+      { "name"  : "Fail", "value" : 0  }
     ]
   }
 ];
@@ -566,7 +579,7 @@ addPoints = function(boxesList) {
   angular.forEach(boxesList, function(box) {
     if(box.name != ""){
       var thisMark = getMark(box.level, box.grade);
-      if( box.name === "Mathematics" && box.level === "Higher" ) thisMark += 25;
+      if( box.name === "Mathematics" && box.level === "Higher" && ["H1", "H2", "H3", "H4", "H5", "H6"].includes(box.grade) ) thisMark += 25;
       marks.push(thisMark);
     }
   });
